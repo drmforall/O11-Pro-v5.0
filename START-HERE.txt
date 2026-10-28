@@ -1,0 +1,38 @@
+O11 PRO v5.0 | LINUX x86-64
+==========================
+
+1. Open README.html for the illustrated O11 Pro v5.0 release guide.
+2. Read RELEASE-NOTES.md for requirements and verification limits.
+3. Extract the ENTIRE archive before installation.
+4. On Ubuntu/Debian, install prerequisites:
+     sudo apt install python3 ffmpeg
+5. From this extracted folder, run:
+     sudo bash install.sh
+6. Choose your admin username, password and an available port.
+7. Open http://localhost:YOUR_PORT/login
+
+No default credentials are included. Existing installations are not overwritten.
+The installer creates a local-only systemd service named o11v5.
+
+CONTENTS
+  o11pro-v5        Compiled and stripped Linux executable
+  install.sh       Interactive installer and credential setup
+  README.html      Branded offline guide with screenshot gallery
+  README.md        Quick-reference documentation
+  README.txt       Plain-text installation reference
+  HELP.html        Offline Help Center and troubleshooting
+  RELEASE-NOTES.md Release status and limitations
+  VERSION          Release version and platform
+  SHA256SUMS.txt   Integrity hashes for all included files
+  docs/            Brand artwork
+  screenshots/     Six actual application screenshots
+  tools/           Optional Python maintenance utilities
+
+VERIFY
+  sha256sum --check SHA256SUMS.txt
+
+SUPPORT
+  https://www.o11.shop
+  https://t.me/Playreadydrm?direct
+
+Copyright 2026-2027 O11 Pro
